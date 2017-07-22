@@ -1,0 +1,10 @@
+name: libpq
+version: 9.3.7
+
+authors:
+  - Aurélien Bidon <abidon@protonmail.com>
+
+description: |
+  A binding to the native postgres library (libpq)
+
+license: MIT
