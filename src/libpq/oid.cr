@@ -1,5 +1,5 @@
 lib LibPQ
-    enum TypeOid
+    enum TypeOid : UInt32
         BOOL = 16
         BYTEA = 17
         CHAR = 18
@@ -41,7 +41,9 @@ lib LibPQ
         TEXTARRAY = 1009
         OIDARRAY = 1028
         FLOAT4ARRAY = 1021
+        FLOAT8ARRAY = 1022
         ACLITEM = 1033
+        ACLITEMARRAY = 1034
         CSTRINGARRAY = 1263
         BPCHAR = 1042
         VARCHAR = 1043
